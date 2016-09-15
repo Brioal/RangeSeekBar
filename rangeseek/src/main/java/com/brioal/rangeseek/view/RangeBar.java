@@ -123,6 +123,30 @@ public class RangeBar extends View {
 
     }
 
+    //设置选中的起始下标
+    public void setStartIndex(int startIndex) {
+        mStartIndex = startIndex;
+        mStartX = mStartIndex * mSingleWidth + mSingleWidth / 2;
+        invalidate();
+    }
+
+    //获取选中的起始下标
+    public int getStartIndex() {
+        return mStartIndex;
+    }
+
+    //设置终止下标
+    public void setEndIndex(int endIndex) {
+        mEndIndex = endIndex;
+        mEndX = mEndIndex * mSingleWidth + mSingleWidth / 2;
+        invalidate();
+    }
+
+    //获取终止的下标
+    public int getEndIndex() {
+        return mEndIndex;
+    }
+
     public void setValues(List<RangeEntity> list) {
         mList = list;
         mStartIndex = 0;
