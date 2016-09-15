@@ -14,7 +14,7 @@ allprojects {
 ###2.添加最新版本的依赖库,最新版本如右所示,修改末尾的版本即可(因为我有时候更新版本了会忘记修改readme)[![](https://jitpack.io/v/Brioal/BrioalSetting.svg)](https://jitpack.io/#Brioal/BrioalSetting)
 ```
 dependencies {
-	        compile 'com.github.Brioal:BrioalSetting:1.0'
+	        compile 'com.github.Brioal:RangeSeekBar:1.0'
 	        ////例如上面最新版本是1.1,则只要把1.0改成1.1即可使用最新版本
 	}
 ```
